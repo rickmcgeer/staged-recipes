@@ -1,0 +1,12 @@
+package:
+        name: test_project
+        version: 1.0
+
+source:
+        url: https://github.com/MarianDubei/conda_recipe_test_project/archive/refs/tags/v0.1.tar.gz
+        sha256: 305bc50b32c0b3e52f4373da845725372838b6bb314adf340a23f13b327c6f8d
+
+requirements:
+        build:
+                - make
+                - {{ compiler('cxx') }}
